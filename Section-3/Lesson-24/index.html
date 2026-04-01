@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        .h-10 {
+            height: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2>Hover rows, active single row, border</h2>
+                <table class="table table-hover table-bordered border-danger">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr class="table-active">
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Primary variant</h2>
+                <table class="table table-primary">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Secondary variant</h2>
+                <table class="table table-secondary">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Success variant</h2>
+                <table class="table table-success">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Danger variant</h2>
+                <table class="table table-danger">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Dark variant</h2>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Warning variant</h2>
+                <table class="table table-warning">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>info variant</h2>
+                <table class="table table-info">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Light variant</h2>
+                <table class="table table-light">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Striped rows</h2>
+                <table class="table table-danger table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <h2>Striped columns</h2>
+                <table class="table table-danger table-striped-columns">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>30</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>25</td>
+                            <td>Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td>Michael Johnson</td>
+                            <td>35</td>
+                            <td>Chicago</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
