@@ -1,12 +1,3 @@
-# bootstrap5-from-scratch
-
-project-1          bootstrap5-from-scratch.vercel.app
-
-project-2          bootstrap5-from-scratch-xv5y.vercel.app
-
-project-3          bootstrap5-from-scratch-z2gj.vercel.app
-
-
 # Bootstrap 5
 
 This repository contains projects and exercises created while completing the course **"The Ultimate Bootstrap Guide – Bootstrap 5 from Scratch"** on Udemy.
